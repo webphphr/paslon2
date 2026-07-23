@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>PASLON 2 — Christa &amp; Jaden | OSIS Campaign</title>
+<meta name="description" content="Serving with Faith. Building a Stronger Community in Christ. Vote PASLON 2 — Christa & Jaden for OSIS.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= SCROLL PROGRESS BAR ================= -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#hero" class="navbar__brand">
+      <span class="navbar__mark" aria-hidden="true"></span>
+      <span class="navbar__brand-text">PASLON&nbsp;2</span>
+    </a>
+
+    <nav class="navbar__links" id="navLinks">
+      <a href="#vision" data-nav>Vision</a>
+      <a href="#mission" data-nav>Mission</a>
+      <a href="#why" data-nav>Why Us</a>
+      <a href="#program" data-nav>Program</a>
+      <a href="#candidates" data-nav>Candidates</a>
+    </nav>
+
+    <a href="#vote" class="navbar__cta">Vote Now</a>
+
+    <button class="navbar__menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- mobile drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#vision" data-nav>Vision</a>
+    <a href="#mission" data-nav>Mission</a>
+    <a href="#why" data-nav>Why Us</a>
+    <a href="#program" data-nav>Program</a>
+    <a href="#candidates" data-nav>Candidates</a>
+    <a href="#vote" class="mobile-drawer__cta">Vote Now</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="hero__field" aria-hidden="true">
+      <span class="ring ring--1"></span>
+      <span class="ring ring--2"></span>
+      <span class="ring ring--3"></span>
+      <span class="hero__shape hero__shape--a"></span>
+      <span class="hero__shape hero__shape--b"></span>
+      <span class="hero__shape hero__shape--c"></span>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow reveal-up">OSIS Election 2026 · Candidate Nomor</p>
+      <h1 class="hero__title reveal-up">
+        <span class="hero__paslon">PASLON 2</span>
+        <span class="hero__names">Christa <span class="amp">&amp;</span> Jaden</span>
+      </h1>
+      <p class="hero__tagline reveal-up">
+        Serving with faith. Building a stronger<br class="br-desktop">
+        community in Christ.
+      </p>
+
+      <div class="hero__actions reveal-up">
+        <a href="#vote" class="btn btn--primary btn--large ripple">
+          Support PASLON 2
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#poster" class="btn btn--ghost btn--large ripple">View Poster</a>
+      </div>
+    </div>
+
+    <button class="scroll-indicator" id="scrollIndicator" aria-label="Scroll to content">
+      <span class="scroll-indicator__label">Scroll</span>
+      <span class="scroll-indicator__line"></span>
+    </button>
+  </section>
+
+  <!-- ================= CAMPAIGN POSTER ================= -->
+<section class="poster-section" id="poster">
+  <div class="container">
+    <div
+      class="poster-card reveal-up"
+      id="posterCard"
+      tabindex="0"
+      role="button"
+      aria-label="Tap to view full campaign poster"
+    >
+      <div class="poster-card__media">
+        <img
+          src="poster.jpg"
+          alt="Official Campaign Poster - Paslon 2 Christa & Jaden"
+          class="poster-placeholder"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="poster-card__footer">
+        <div>
+          <p class="poster-card__title">Official Campaign Poster</p>
+          <p class="poster-card__hint">Tap to expand</p>
+        </div>
+
+        <span class="poster-card__icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ================= VISION ================= -->
+  <section class="vision-section" id="vision">
+    <div class="container container--narrow">
+      <p class="eyebrow eyebrow--center reveal-up">Our Vision</p>
+      <p class="vision-statement reveal-up">
+        To build a <span class="highlight">Christ&#8209;centered</span>, active, and supportive community that cares for both spiritual growth and well&#8209;being.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= MISSION ================= -->
+  <section class="section" id="mission">
+    <div class="container">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Our Mission</p>
+        <h2 class="section-title">How we'll get there</h2>
+      </div>
+
+      <div class="mission-grid">
+        <article class="m-card reveal-up">
+          <div class="m-card__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.35-9.5-9C.5 8 2 4 6 4c2 0 3.5 1.2 4 2.5C10.5 5.2 12 4 14 4c4 0 5.5 4 3.5 8-2.5 4.65-9.5 9-9.5 9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Strengthen faith</h3>
+          <p>Strengthen Christian values through daily actions and a positive school environment.</p>
+        </article>
+
+        <article class="m-card reveal-up">
+          <div class="m-card__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2 14.6 8.6 21.5 9l-5.2 4.6L18 21l-6-3.9L6 21l1.7-7.4L2.5 9l6.9-.4L12 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Unlock potential</h3>
+          <p>Create activities that support students' potential, where they're encouraged to improve their talents.</p>
+        </article>
+
+        <article class="m-card reveal-up">
+          <div class="m-card__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17 20h5v-2a4 4 0 0 0-3-3.87M9 20H4v-2a4 4 0 0 1 3-3.87m5-2.13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm6-1a4 4 0 0 0 0-8m-12 0a4 4 0 0 0 0 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Build community</h3>
+          <p>Create a safe community where everyone feels valued, respected, and can grow through teamwork and responsibility.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MOTTO ================= -->
+  <section class="motto-section">
+    <div class="container container--narrow">
+      <svg class="motto-mark" width="32" height="24" viewBox="0 0 32 24" fill="none" aria-hidden="true"><path d="M0 24V13.71C0 5.4 4.8 0.6 12.3 0L13.2 3.6C8.4 4.5 6 7.5 6 12h6v12H0Zm18 0V13.71C18 5.4 22.8 0.6 30.3 0l0.9 3.6c-4.8 0.9-7.2 3.9-7.2 8.4h6v12H18Z" fill="#1A73E8" opacity="0.18"/></svg>
+      <p class="motto-quote reveal-up">Serving with faith and building a stronger community in Christ!</p>
+    </div>
+  </section>
+
+  <!-- ================= WHY VOTE ================= -->
+  <section class="section section--tint" id="why">
+    <div class="container">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Why Vote For Us</p>
+        <h2 class="section-title">Promises we intend to keep</h2>
+      </div>
+
+      <ul class="check-list">
+        <li class="check-item reveal-up">
+          <span class="check-item__icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>We're committed to turning our programs into reality not just promises on a poster.</span>
+        </li>
+        <li class="check-item reveal-up">
+          <span class="check-item__icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>We plan to introduce additional programs and exciting events throughout the year to make school more enjoyable and engaging for everyone.</span>
+        </li>
+        <li class="check-item reveal-up">
+          <span class="check-item__icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>We want stronger friendships built across every grade and group.</span>
+        </li>
+        <li class="check-item reveal-up">
+          <span class="check-item__icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>We want students to feel closer to God, every single day.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROGRAM ================= -->
+  <section class="section" id="program">
+    <div class="container">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Featured Program</p>
+        <h2 class="section-title">Refreshment Day</h2>
+      </div>
+
+      <div class="feature-card reveal-up">
+        <div class="feature-card__media" aria-hidden="true">
+          <svg width="100%" height="100%" viewBox="0 0 600 320" preserveAspectRatio="xMidYMid slice">
+            <rect width="600" height="320" fill="#1A73E8"/>
+            <circle cx="90" cy="60" r="120" fill="#ffffff" opacity="0.06"/>
+            <circle cx="520" cy="260" r="160" fill="#ffffff" opacity="0.07"/>
+            <circle cx="480" cy="70" r="46" fill="#ffffff" opacity="0.12"/>
+          </svg>
+          <span class="feature-card__badge">Monthly</span>
+        </div>
+        <div class="feature-card__body">
+          <p class="feature-card__lede">At the end of every month, OSIS organizes simple games, sports, music, and activities during break, lunch, or after school.</p>
+          <div class="feature-points">
+            <div class="feature-point">
+              <span class="feature-point__dot" aria-hidden="true"></span>
+              <span>Students get to showcase their talents in front of their friends.</span>
+            </div>
+            <div class="feature-point">
+              <span class="feature-point__dot" aria-hidden="true"></span>
+              <span>Winners take home snacks as a small, fun reward.</span>
+            </div>
+            <div class="feature-point">
+              <span class="feature-point__dot" aria-hidden="true"></span>
+              <span>The goal: better mental health and stronger friendships, one break at a time.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ================= FINAL CTA / VOTE ================= -->
+  <section class="vote-section" id="vote">
+    <div class="container container--narrow">
+      <h2 class="vote-title reveal-up">Vote PASLON 2</h2>
+      <p class="vote-sub reveal-up">Christa &amp; Jaden — serving with faith, building community.</p>
+      <a href="#hero" class="btn btn--primary btn--large ripple reveal-up">Back to Top</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="navbar__mark" aria-hidden="true"></span>
+      <span>PASLON&nbsp;2</span>
+    </div>
+    <p class="footer__tagline">Vote PASLON 2 — Christa &amp; Jaden</p>
+
+    <a class="footer__ig" href="#" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+      @paslon2official
+    </a>
+
+    <p class="footer__year">Student Council Election · 2025/2026</p>
+  </div>
+</footer>
+
+<!-- ================= FULLSCREEN POSTER MODAL ================= -->
+<div class="modal" id="posterModal" aria-hidden="true">
+  <button class="modal__close" id="modalClose" aria-label="Close poster">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <div class="modal__content">
+      <img
+         src="poster.jpg"
+          alt="error check ur wifi gng"
+         class="class="poster-placeholder poster-placeholder--large"
+
+      />
+      <rect width="400" height="500" fill="#E8F0FE"/>
+      <circle cx="140" cy="200" r="70" fill="#C9DDFC"/>
+      <circle cx="270" cy="220" r="70" fill="#1A73E8" opacity="0.85"/>
+      <rect x="0" y="380" width="400" height="120" fill="#1A73E8" opacity="0.06"/>
+      <text x="200" y="450" text-anchor="middle" font-family="Poppins, sans-serif" font-size="22" font-weight="700" fill="#1A73E8">PASLON 2</text>
+      <text x="200" y="475" text-anchor="middle" font-family="Poppins, sans-serif" font-size="13" fill="#5F6368">Christa &amp; Jaden</text>
+    </svg>
+  </div>
+</div>
+
+<!-- ================= BACK TO TOP ================= -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
